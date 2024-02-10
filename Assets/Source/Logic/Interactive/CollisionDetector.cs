@@ -112,10 +112,10 @@ public class CollisionDetector : MonoBehaviour
     }
     public void GameLog(string str) 
     {
-        if (UILog.Instance != null) 
-        {
-            UILog.Instance.AddMassege(str);
-        }
+        //if (UILog.Instance != null) 
+        //{
+        //    UILog.Instance.AddMassege(str);
+        //}
     }
     public void PlaySoundInPlayer(AudioClip ac) 
     {

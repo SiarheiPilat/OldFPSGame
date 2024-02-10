@@ -19,7 +19,7 @@ public class SecretPoint : MonoBehaviour
 
     public void GameLog(string str)
     {
-        if (UILog.Instance != null)
-            UILog.Instance.AddMassege(str);
+        //if (UILog.Instance != null)
+        //    UILog.Instance.AddMassege(str);
     }
 }
